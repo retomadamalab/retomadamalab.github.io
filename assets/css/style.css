@@ -1,9 +1,4 @@
 
-/*
-colors
-    dark #231769
-    
-    **/
 
 a {
     color: #fdc300;
@@ -67,6 +62,16 @@ a {
 .hero-text {
     margin-right: 20px;
     margin-bottom: 75px
+}
+
+
+    .hero-text .ter-left {
+        width: 130px;
+        height: 10px;
+        background-color: #fdc300;
+        margin-bottom: 30px;
+        margin-top:-10px;
+
 }
 
 .time-countdown ul {
