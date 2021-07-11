@@ -218,7 +218,7 @@ a {
         width: 100%;
         height: 100%;
         content: "";
-        background: #e93888;
+        background: #fdc300;
         opacity: 0
     }
 
@@ -528,7 +528,7 @@ a {
         width: 100%;
         height: 100%;
         content: "";
-        background: #e93888;
+        background: #fdc300;
         opacity: 0;
         border-radius: 0 0 5px 5px
     }
@@ -550,7 +550,7 @@ a {
             width: 100%;
             height: 20px;
             content: "";
-            background: #e93888;
+            background: #fdc300;
             opacity: 1;
             border-radius: 5px 5px 0 0
         }
@@ -598,12 +598,12 @@ a {
     }
 
         .pricing-block .btn-bg:hover {
-            background-color: #ed4b95;
-            border: 1px solid #ed4b95
+            background-color: #deab00;
+            border: 1px solid #deab00
         }
 
     .pricing-block.active .btn-bg {
-        background-color: #ed4b95
+        background-color: #deab00
     }
 
 .logo-wrap {
@@ -645,7 +645,7 @@ a {
 }
 
     .contact-info i {
-        color: #e93888;
+        color: #fdc300;
         float: left;
         margin-top: 7px
     }
@@ -678,7 +678,7 @@ a {
         width: 100%;
         height: 100%;
         content: "";
-        background: #e93888;
+        background: #fdc300;
         opacity: 0
     }
 
@@ -712,7 +712,7 @@ a {
     }
 
     .single-news-block .post-date {
-        color: #e93888;
+        color: #fdc300;
         margin-bottom: 10px;
         display: inline-block;
         font-size: 16px
@@ -1022,13 +1022,13 @@ a {
 }
 
 .category-widget a:hover {
-    color: #e93888
+    color: #fdc300
 }
 
 .category-widget li a:before {
     content: "\f101";
     font-family: FontAwesome;
-    color: #e93888;
+    color: #fdc300;
     margin-right: 15px
 }
 
@@ -1042,7 +1042,7 @@ a {
 }
 
     .tag-widget a:hover {
-        color: #e93888
+        color: #fdc300
     }
 
 .properties-pazination li {
@@ -1065,7 +1065,7 @@ a {
 
     .properties-pazination li.active a, .properties-pazination li a:hover {
         color: #fff;
-        background: #e93888
+        background: #fdc300
     }
 
 .ticket-info-wrap h3 {
@@ -1096,7 +1096,7 @@ a {
 .single-blog-post-date {
     float: left;
     margin-right: 30px;
-    color: #e93888
+    color: #fdc300
 }
 
     .single-blog-post-date a {
@@ -1105,7 +1105,7 @@ a {
     }
 
 .single-blog-post-inner .admin-by a {
-    color: #e93888
+    color: #fdc300
 }
 
 .post-content p {
@@ -1176,12 +1176,12 @@ a {
         overflow: hidden;
         position: relative;
         display: inline-block;
-        color: #e93888
+        color: #fdc300
     }
 
     .latest-comments .comment-reply {
         display: inline-block;
-        color: #e93888;
+        color: #fdc300;
         background: #2a1e70;
         padding: 0 19px
     }
