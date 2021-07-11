@@ -434,7 +434,7 @@ a {
         cursor: pointer
     }
 
-        .schedule-short-content h5:after {
+/*        .schedule-short-content h5:after {
             position: absolute;
             content: "";
             right: 0;
@@ -454,7 +454,7 @@ a {
 
         .schedule-short-content h5[aria-expanded=false]:after {
             transform: rotate(0deg)
-        }
+        }*/
 
 .schedule-speaker-member {
     padding: 30px
@@ -474,7 +474,9 @@ a {
 }
 
 .schedule-date-wrap {
-    border-radius: 0 4px 4px 0
+    border-radius: 0 4px 4px 0;
+    border: 5px solid #2a1e70;
+}
 }
 
 .schedule-speaker-date {
