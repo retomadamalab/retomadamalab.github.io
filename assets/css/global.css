@@ -180,7 +180,7 @@ button:focus, input[type=button]:focus, input[type=reset]:focus, input[type=subm
 }
 
     .btn-bg:hover {
-        background: #ed4b95;
+        background: #ca9c02;
         color: #fff;
         transform: translate(0,-3px)
     }
