@@ -47,6 +47,8 @@
             $('html, body').animate({
                 scrollTop: $(target).offset().top
             }, 1000);
+
+            $("div.navbar-collapse").removeClass("show");
         });
     }
     $(window).on('scroll', function () {
@@ -57,10 +59,10 @@
     });
 
     document.addEventListener('DOMContentLoaded', function () {
-        var words = ["TOMADA","ABRIR", "SSIGNIFICAR", "VIVER", "INVENTAR", "CONSTRUIR", "ESTABELECER", "VER", "ACENDER", "CONDICIONAR", "PACTUAR", "LEMBRAR", "ABASTECER", "VIGORAR"];
+        var words = ["TOMAR","ABRIR", "SSIGNIFICAR", "VIVER", "INVENTAR", "CONSTRUIR", "ESTABELECER", "VER", "ACENDER", "CONDICIONAR", "PACTUAR", "LEMBRAR", "ABASTECER", "VIGORAR"];
 
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-            words = ["TOMADA","ABRIR", "INVENTAR", "CONSTRUIR"]
+            words = ["TOMAR","ABRIR", "INVENTAR", "CONSTRUIR"]
         }
 
         Typed.new('.re_', {
