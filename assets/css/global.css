@@ -164,19 +164,18 @@ button:focus, input[type=button]:focus, input[type=reset]:focus, input[type=subm
 
 .btn-bg {
     font-family: poppins,sans-serif;
-    background: #fdc300;
+    background: #fdc300 !important;
     color: #fff;
     transition: .5s;
     display: inline-block;
     z-index: 9;
     text-align: center;
-    font-size: 18px;
+    font-size: 18px !important;
     font-weight: 500;
-    padding: 13px 10px;
+    padding: 13px 10px !important;
     min-width: 180px;
     border-radius: 5px;
     cursor: pointer;
-    transition: .5s
 }
 
     .btn-bg:hover {
