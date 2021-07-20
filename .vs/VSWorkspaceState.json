@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\assets",
+    "\\assets\\img",
+    "\\assets\\img\\speakers",
     "\\assets\\js"
   ],
-  "SelectedNode": "\\assets\\js\\main.js",
+  "SelectedNode": "\\assets\\img\\speakers\\EduardoSanovicz.png",
   "PreviewInSolutionExplorer": false
 }
