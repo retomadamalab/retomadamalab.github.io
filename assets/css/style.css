@@ -621,8 +621,21 @@ a {
         display: inline-block;
         position: relative;
         margin: 40px 45px;
-        width: auto
+        width: auto;
+
     }
+
+        .logo-wrap a img:first-child {
+            -webkit-transition: 1.0s;
+            -o-transition: 1.0s;
+            transition: 1.0s
+        }
+
+        .logo-wrap a:hover img:first-child {
+            opacity: 0;
+            top: 0;
+            visibility: visible
+        }
 
         .logo-wrap a img:last-child {
             position: absolute;
