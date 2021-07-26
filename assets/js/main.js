@@ -31,7 +31,7 @@
             minute = second * 60,
             hour = minute * 60,
             day = hour * 24;
-        let countDown = new Date('Aug 2, 2021 8:00:00').getTime(),
+        let countDown = new Date('Aug 2, 2021 18:00:00').getTime(),
             x = setInterval(function () {
                 let now = new Date().getTime(),
                     distance = countDown - now;

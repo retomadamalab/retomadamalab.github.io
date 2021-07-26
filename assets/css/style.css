@@ -431,7 +431,7 @@ a {
 
     .schedule-short-content h5 {
         position: relative;
-        cursor: pointer
+      /*  cursor: pointer*/
     }
 
 /*        .schedule-short-content h5:after {
