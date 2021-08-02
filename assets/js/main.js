@@ -38,9 +38,9 @@
                 document.getElementById('days').innerText = Math.floor(distance / (day)), document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)), document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)), document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
             }, second)
     };
-    $('.vedio-play').magnificPopup({
-        type: 'iframe'
-    });
+    //$('.vedio-play').magnificPopup({
+    //    type: 'iframe'
+    //});
     if ($('.scroll-to-target').length) {
         $(".scroll-to-target").on('click', function () {
             var target = $(this).attr('data-target');
