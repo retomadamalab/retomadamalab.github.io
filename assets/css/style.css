@@ -35,7 +35,7 @@ a {
 
 .hero-section {
     min-height: 800px;
-    background-color: #f6f8fa;
+/*    background-color: #f6f8fa;*/
     background-position: bottom center;
     background-size: cover;
     position: relative;
